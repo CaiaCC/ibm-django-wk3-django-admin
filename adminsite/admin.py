@@ -8,6 +8,6 @@ class CourseAdmin(admin.ModelAdmin):
 admin.site.register(Course, CourseAdmin)
 
 class InstructorAdmin(admin.ModelAdmin):
-    fields=['user', 'full_time']
+    fields = ['user', 'full_time']
 
 admin.site.register(Instructor, InstructorAdmin)
